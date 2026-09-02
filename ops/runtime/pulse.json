@@ -1,7 +1,7 @@
 {
   "schema": "greed_ops_pulse/v1",
-  "pulseId": "2026-09-02T11:24:30Z",
-  "writtenUtc": "2026-09-02T11:24:30Z",
+  "pulseId": "2026-09-02T11:33:35Z",
+  "writtenUtc": "2026-09-02T11:33:35Z",
   "source": "cursor_automation",
   "message": "handshake ok"
 }
