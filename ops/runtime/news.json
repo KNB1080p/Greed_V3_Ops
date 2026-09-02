@@ -1,74 +1,74 @@
-﻿{
-    "writtenUtc":  "2026-09-02T12:34:45Z",
-    "schema":  "greed_ops_news/v1",
-    "symbol":  "EURUSD",
-    "versionId":  "2026-09-02T12:34:45Z",
-    "windows":  [
-                    {
-                        "eventUtc":  "2026-09-01T09:00:00Z",
-                        "blockStartUtc":  "2026-09-01T08:15:00Z",
-                        "blockEndUtc":  "2026-09-01T10:30:00Z",
-                        "tier":  2,
-                        "impact":  "Medium",
-                        "currencies":  [
-                                           "EUR"
-                                       ],
-                        "title":  "Core CPI Flash Estimate y/y + CPI Flash Estimate y/y + Unemployment Rate"
-                    },
-                    {
-                        "eventUtc":  "2026-09-01T14:00:00Z",
-                        "blockStartUtc":  "2026-09-01T13:45:00Z",
-                        "blockEndUtc":  "2026-09-01T14:45:00Z",
-                        "tier":  2,
-                        "impact":  "High",
-                        "currencies":  [
-                                           "USD"
-                                       ],
-                        "title":  "ISM Manufacturing PMI + ISM Manufacturing Prices + JOLTS Job Openings"
-                    },
-                    {
-                        "eventUtc":  "2026-09-02T12:15:00Z",
-                        "blockStartUtc":  "2026-09-02T12:00:00Z",
-                        "blockEndUtc":  "2026-09-02T13:00:00Z",
-                        "tier":  2,
-                        "impact":  "Medium",
-                        "currencies":  [
-                                           "USD"
-                                       ],
-                        "title":  "ADP Non-Farm Employment Change"
-                    },
-                    {
-                        "eventUtc":  "2026-09-03T12:30:00Z",
-                        "blockStartUtc":  "2026-09-03T12:15:00Z",
-                        "blockEndUtc":  "2026-09-03T13:15:00Z",
-                        "tier":  2,
-                        "impact":  "Medium",
-                        "currencies":  [
-                                           "USD"
-                                       ],
-                        "title":  "Unemployment Claims"
-                    },
-                    {
-                        "eventUtc":  "2026-09-03T14:00:00Z",
-                        "blockStartUtc":  "2026-09-03T13:45:00Z",
-                        "blockEndUtc":  "2026-09-03T14:45:00Z",
-                        "tier":  2,
-                        "impact":  "Medium",
-                        "currencies":  [
-                                           "USD"
-                                       ],
-                        "title":  "ISM Services PMI"
-                    },
-                    {
-                        "eventUtc":  "2026-09-04T12:30:00Z",
-                        "blockStartUtc":  "2026-09-04T11:45:00Z",
-                        "blockEndUtc":  "2026-09-04T14:00:00Z",
-                        "tier":  1,
-                        "impact":  "High",
-                        "currencies":  [
-                                           "USD"
-                                       ],
-                        "title":  "Average Hourly Earnings m/m + Non-Farm Employment Change + Unemployment Rate"
-                    }
-                ]
+{
+  "schema": "greed_ops_news/v1",
+  "versionId": "2026-09-02T12:48:43Z",
+  "writtenUtc": "2026-09-02T12:48:43Z",
+  "symbol": "EURUSD",
+  "windows": [
+    {
+      "eventUtc": "2026-09-01T09:00:00Z",
+      "blockStartUtc": "2026-09-01T08:45:00Z",
+      "blockEndUtc": "2026-09-01T09:45:00Z",
+      "tier": 2,
+      "impact": "Medium",
+      "currencies": [
+        "EUR"
+      ],
+      "title": "Core CPI Flash Estimate y/y + CPI Flash Estimate y/y"
+    },
+    {
+      "eventUtc": "2026-09-01T14:00:00Z",
+      "blockStartUtc": "2026-09-01T13:45:00Z",
+      "blockEndUtc": "2026-09-01T14:45:00Z",
+      "tier": 2,
+      "impact": "High",
+      "currencies": [
+        "USD"
+      ],
+      "title": "ISM Manufacturing PMI + ISM Manufacturing Prices + JOLTS Job Openings"
+    },
+    {
+      "eventUtc": "2026-09-02T12:15:00Z",
+      "blockStartUtc": "2026-09-02T12:00:00Z",
+      "blockEndUtc": "2026-09-02T13:00:00Z",
+      "tier": 2,
+      "impact": "Medium",
+      "currencies": [
+        "USD"
+      ],
+      "title": "ADP Non-Farm Employment Change"
+    },
+    {
+      "eventUtc": "2026-09-03T12:30:00Z",
+      "blockStartUtc": "2026-09-03T12:15:00Z",
+      "blockEndUtc": "2026-09-03T13:15:00Z",
+      "tier": 2,
+      "impact": "Medium",
+      "currencies": [
+        "USD"
+      ],
+      "title": "Unemployment Claims"
+    },
+    {
+      "eventUtc": "2026-09-03T14:00:00Z",
+      "blockStartUtc": "2026-09-03T13:45:00Z",
+      "blockEndUtc": "2026-09-03T14:45:00Z",
+      "tier": 2,
+      "impact": "Medium",
+      "currencies": [
+        "USD"
+      ],
+      "title": "ISM Services PMI"
+    },
+    {
+      "eventUtc": "2026-09-04T12:30:00Z",
+      "blockStartUtc": "2026-09-04T11:45:00Z",
+      "blockEndUtc": "2026-09-04T14:00:00Z",
+      "tier": 1,
+      "impact": "High",
+      "currencies": [
+        "USD"
+      ],
+      "title": "Average Hourly Earnings m/m + Non-Farm Employment Change + Unemployment Rate"
+    }
+  ]
 }
