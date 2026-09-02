@@ -1,0 +1,7 @@
+{
+  "schema": "greed_ops_pulse/v1",
+  "pulseId": "pending",
+  "writtenUtc": "pending",
+  "source": "cursor_automation",
+  "message": "awaiting first automation run"
+}
