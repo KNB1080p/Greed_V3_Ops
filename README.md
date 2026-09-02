@@ -2,22 +2,29 @@
 
 Public ops channel for the **GREED_V3** cTrader bot. Private strategy code lives in [Greed_V3](https://github.com/KNB1080p/Greed_V3).
 
-## Bot read URL
+## Bot URLs
 
-```
-https://raw.githubusercontent.com/KNB1080p/Greed_V3_Ops/main/ops/runtime/pulse.json
-```
-
-GREED_V3 polls this URL (v3.18.6+) and acks new pulses in `Automation_*.csv` on the cBot data folder.
+| Feed | URL |
+|------|-----|
+| Ops pulse | `https://raw.githubusercontent.com/KNB1080p/Greed_V3_Ops/main/ops/runtime/pulse.json` |
+| News blackout | `https://raw.githubusercontent.com/KNB1080p/Greed_V3_Ops/main/ops/runtime/news.json` |
 
 ## Layout
 
 ```
 ops/
-  runtime/pulse.json       ← Cursor automation writes; bot reads
-  logs/automation_agent.csv ← automation audit trail
+  calendar/ff_calendar.csv   ← weekly ForexFactory CSV (UTC times)
+  runtime/pulse.json         ← heartbeat / test ack
+  runtime/news.json          ← tiered blackout windows (agent writes)
+  logs/automation_agent.csv
+  docs/
+    pulse_contract.md
+    news_contract.md
+    automation_instructions.md  ← paste into Cursor automation
 ```
 
-## Contract
+## Contracts
 
-See `ops/docs/pulse_contract.md`.
+- Pulse: `ops/docs/pulse_contract.md`
+- News: `ops/docs/news_contract.md`
+- Automation: `ops/docs/automation_instructions.md`
