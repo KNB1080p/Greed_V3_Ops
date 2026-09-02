@@ -1,7 +1,7 @@
 {
   "schema": "greed_ops_pulse/v1",
-  "pulseId": "pending",
-  "writtenUtc": "pending",
+  "pulseId": "2026-09-02T11:24:30Z",
+  "writtenUtc": "2026-09-02T11:24:30Z",
   "source": "cursor_automation",
-  "message": "awaiting first automation run"
+  "message": "handshake ok"
 }
