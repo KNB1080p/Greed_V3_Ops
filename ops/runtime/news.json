@@ -1,7 +1,7 @@
 {
   "schema": "greed_ops_news/v1",
-  "versionId": "2026-10-19T05:05:30Z",
-  "writtenUtc": "2026-10-19T05:05:30Z",
+  "versionId": "2026-10-20T05:02:41Z",
+  "writtenUtc": "2026-10-20T05:02:41Z",
   "symbol": "EURUSD",
   "windows": [
     {
@@ -13,7 +13,7 @@
       "currencies": [
         "EUR"
       ],
-      "title": "CPI Flash Estimate y/y + Core CPI Flash Estimate y/y"
+      "title": "Core CPI Flash Estimate y/y + CPI Flash Estimate y/y"
     },
     {
       "eventUtc": "2026-09-01T14:00:00Z",
